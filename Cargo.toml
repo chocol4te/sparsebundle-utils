@@ -1,0 +1,9 @@
+[package]
+name = "sparsebundle-utils"
+version = "0.1.0"
+authors = ["Ferdia McKeogh <ferdia@mckeogh.tech>"]
+edition = "2018"
+
+[dependencies]
+plist = "0.4.1"
+serde = { version = "1.0.92", features = ["derive"] }
